@@ -4,22 +4,6 @@ Where ideas are shaped into production-ready code.
 
 > **"Invest a little structure upfront to avoid expensive rework later."**
 
----
-
-## 🎓 Training Session
-
-📹 **Watch the full training session:** [The Forge Vidcast Recording](https://app.vidcast.io/share/5fe737be-8d71-48c3-8e39-0deb9d802663)
-
-📊 **[View Presentation Slides (PDF)](./the-forge-presentation-slides.pdf)**
-
-📈 **[View Presentation Scorecard](./the-forge-presentation-transcript-scorecard.md)** - AI analysis of presentation delivery
-
-**Score: 79.5/100 (Grade: C+)** - Good technical delivery with room for pacing and structure improvements
-
-This recording walks through the entire Forge framework, demonstrating how to structure AI-assisted development projects for production-ready code that is usable, scalable, portable, secure, and testable.
-
----
-
 ## What Is This?
 
 The Forge is a **framework template** for AI-assisted development. Whether you're starting fresh or improving an existing codebase, it provides structure and guidelines that help AI assistants (like Windsurf's Cascade) build code that is:
