@@ -29,6 +29,7 @@ These rules ensure AI assistants:
 | `AI_README.md` | Project context, architecture, and patterns for AI |
 | `TESTING.md` | How tests should be written |
 | `SECURITY.md` | Security requirements and best practices |
+| `DEVELOPMENT_CHECKLIST.md` | Validation checklist for code changes |
 | `.windsurf/rules/project-rules.md` | AI behavior rules |
 
 ---
@@ -44,12 +45,20 @@ These rules ensure AI assistants:
 - Write tests for new functionality
 - Don't break existing tests
 
-### 3. Update documentation if needed
+### 3. Validate your changes
+Use the validation triggers with your AI assistant:
+- `"Validate"` or `"Validate my changes"` - Full validation check
+- `"Validate security"` - Security-only validation
+- `"Validate tests"` - Testing-only validation
+
+See `DEVELOPMENT_CHECKLIST.md` for full details.
+
+### 4. Update documentation if needed
 - If you change architecture, update `AI_README.md`
 - If you add new patterns, document them
 - If you change AI rules, update `.windsurf/rules/project-rules.md`
 
-### 4. Submit your PR
+### 5. Submit your PR
 - Describe what you changed and why
 - Note any documentation updates
 - Flag any security-relevant changes
